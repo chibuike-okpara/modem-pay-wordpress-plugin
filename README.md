@@ -107,7 +107,7 @@ To set up the plugin, you need to configure your Modem Pay API key and other set
     ```
 
 ## Support
-For assistance, contact [info@modempay.com](mailto:info@modempay.com) or visit the Modem Pay documentation at [Modem Pay docs](https://docs.modempay.com). If you encounter bugs or have feature requests, please submit them via [your repository or support channel].
+For assistance, contact [info@modempay.com](mailto:info@modempay.com) or visit the Modem Pay documentation at [Modem Pay docs](https://docs.modempay.com). If you encounter bugs or have feature requests, please submit them via [issues](https://github.com/murnitur/modem-pay-wordpress-plugin/issues).
 
 ## License
 This plugin is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
