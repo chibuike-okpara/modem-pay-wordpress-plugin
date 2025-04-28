@@ -102,9 +102,17 @@ To set up the plugin, you need to configure your Modem Pay API key and other set
 - **Permissions (Local Development)**:
   - If using a local server (e.g., XAMPP), ensure the plugin folder has correct permissions:
     ```bash
-    sudo chmod -R 755 /path/to/wordpress/wp-content/plugins/modem-pay
-    sudo chown -R daemon:daemon /path/to/wordpress/wp-content/plugins/modem-pay
+    sudo chmod -R 755 /path/to/wordpress/wp-content/plugins/modempay-payment
     ```
+- **Plugin Upload Issues**
+   - WordPress may need explicit instructions to locate `wp-content` or use direct filesystem access.
+     ```bash
+     define('FS_METHOD', 'direct');
+     define('WP_CONTENT_DIR', '/Applications/XAMPP/htdocs/your-wordpress-folder/wp-content');
+     define('WP_CONTENT_URL', 'http://localhost/your-wordpress-folder/wp-content');
+     ```
+  - Replace `your-wordpress-folder` with your actual folder name.
+  - If your site runs on a custom port (e.g., 8080), adjust the URL (e.g., `http://localhost:8080/your-wordpress-folder/wp-content`).  
 
 ## Support
 For assistance, contact [info@modempay.com](mailto:info@modempay.com) or visit the Modem Pay documentation at [Modem Pay docs](https://docs.modempay.com). If you encounter bugs or have feature requests, please submit them via [issues](https://github.com/murnitur/modem-pay-wordpress-plugin/issues).
