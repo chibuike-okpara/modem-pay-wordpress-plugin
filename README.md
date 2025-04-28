@@ -18,7 +18,7 @@ The **Modem Pay Payment Form** plugin allows you to easily integrate secure paym
 Follow these steps to install and activate the Modem Pay Payment Form plugin:
 
 1. **Download the Plugin**:
-   - Download the plugin zip file (`modempay-payment.zip`).
+   - Download the plugin zip file [modempay-payment.zip](https://github.com/murnitur/modem-pay-wordpress-plugin/archive/refs/tags/v1.zip).
 
 2. **Install the Plugin**:
    - Log in to your WordPress admin dashboard.
@@ -107,7 +107,7 @@ To set up the plugin, you need to configure your Modem Pay API key and other set
     ```
 
 ## Support
-For assistance, contact [your support email or website] or visit the Modem Pay documentation at [Modem Pay website]. If you encounter bugs or have feature requests, please submit them via [your repository or support channel].
+For assistance, contact [info@modempay.com](mailto:info@modempay.com) or visit the Modem Pay documentation at [Modem Pay docs](https://docs.modempay.com). If you encounter bugs or have feature requests, please submit them via [your repository or support channel].
 
 ## License
 This plugin is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
